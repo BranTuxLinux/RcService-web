@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Employed from "./Employed.routes";
-import { Profile_routes } from "./Profile.routes";
-import { ProtectedRoles } from "../ProtectedRoles.routes";
+import { Profile_routes } from "./profile.routes.jsx";
+import { ProtectedRoles } from "../ProtectedRoles.routes.jsx";
 export function UserRoutes() {
   return (
     <Routes>

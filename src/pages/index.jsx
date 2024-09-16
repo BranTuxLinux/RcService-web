@@ -4,7 +4,6 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { OffersRoutes } from "./Offers";
 import { PropertyRoutes } from "./Property";
 import { Footer, HeaderAndAside } from "./templates";
-import { Home } from "./templates/Home.routes";
 import { ServicesRoutes } from "./Services/index";
 import { ProviderRoutes } from "./Providers";
 import ModalG from "../components/Modals";
@@ -15,8 +14,6 @@ import { ChangeLocation } from "../features/button/buttonAdd.slice";
 import { Dashboard } from "./Dashboard/Graficas.routes";
 import { UserRoutes } from "./Users";
 import { ProtectedRoles } from "./ProtectedRoles.routes";
-import Offers from "./Offers/Offers.routes";
-import { Profile_routes } from "./Users/Profile.routes";
 import Blog from "./blogs";
 
 export const Index = () => {
