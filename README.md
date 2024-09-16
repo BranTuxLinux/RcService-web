@@ -3,6 +3,7 @@
 Administrative application designed to facilitate service management. This application is built with **React**, **Redux** for global state management, and **Cypress** for automated testing.
 
 ## Features
+
 - User management (administrators and service providers).
 - Secure authentication system.
 - Admin panel for service management.
@@ -10,6 +11,7 @@ Administrative application designed to facilitate service management. This appli
 - Support for different user roles (administrator and provider).
 
 ## Technologies used
+
 - **React**: Frontend of the application.
 - **Redux**: Global state management.
 - **Redux Toolkit**: Simplified Redux usage.
@@ -19,6 +21,8 @@ Administrative application designed to facilitate service management. This appli
 - **Cypress**: End-to-end tests to ensure code quality.
 
 ## Install dependencies
+
 ```bash
 # Install dependencies
 npm install --legacy-peer-deps
+```
